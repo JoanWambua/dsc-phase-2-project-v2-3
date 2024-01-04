@@ -64,7 +64,7 @@ It's important to acknowledge the model's inherent limitations, and in addressin
 
 ## Necessary Links
 
-* **Jupyter Notebook** [Notebook](<Jupyter Notebook.ipynb>)
+* **Jupyter Notebook** [Notebook](<HOUSE AND PRICE KING COUNTY.ipynb>)
 * **Presentation** [Non Technical Presentation](<Group 16 Project Presentation.pdf>)
 
 ## Repository Structure
