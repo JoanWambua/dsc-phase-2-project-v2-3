@@ -31,20 +31,45 @@ To understand the relationship between our independent variables and the depende
 
 ## Modeling
 
-We constructed our baseline model utilizing sqft_living due to its highest correlation with Price. We then used an iterative approach by building various models which led us to our final regression model.
+We constructed our baseline model utilizing sqft_living due to its highest correlation with Price. Subsequently, we employed an iterative approach, engaging in the construction of various models through a systematic and incremental process, which ultimately led us to the development of our final regression model. Below is an illustration of our final regression model.
+![Final Regression Model](<Final Regression Model.png>)
 
 ## Regression Results
 
+### Validity of the Model:
+
+Although the model provides an explanation for a substantial portion of the variance in housing prices, there is a recognized need for additional investigation to gain a deeper understanding of the impact of bathrooms and to improve the overall validity of the model.
+
+### Significant Property Features:
+
+Bedrooms, sqft_living, view, condition, and grade emerge as pivotal factors influencing housing prices, presenting indispensable considerations for both prospective buyers and sellers in the real estate market.
+
+### Limitations of the Model:
+
+It's important to acknowledge the model's inherent limitations, and in addressing these constraints, log transformation was implemented to adhere to the assumptions of linearity in the modeling process.
+
+## Recommendations
+* Model 5 findings suggest:
+
+1. Prioritize bedrooms, sqft_living, view, condition, and grade for accurate pricing.
+2. Enhance property features to elevate grade and communicate financial gains.
+3. Address bathroom impact inconsistency by refining variables.
+4. Promote affordable properties with fewer bedrooms.
+5. Leverage scenic views with visuals to attract buyers.
+6. Continuously improve the model with additional features and refinements.
+
+## Next Steps
+* It is imperative to gather additional data on the homes to ensure a comprehensive examination and avoid overlooking any essential features that could significantly impact the analysis.
+* Additionally, considering alternative methodologies beyond regression may be contemplated as a means to fulfill the necessary assumptions and enhance the overall robustness of the analytical approach.
 
 ## Necessary Links
 
-* **Presentation** 
-* **Jupyter Notebook** 
+* **Jupyter Notebook** [Notebook](<Jupyter Notebook.ipynb>)
+* **Presentation** [Non Technical Presentation](<Group 16 Project Presentation.pdf>)
 
 ## Repository Structure
 
 ├── README.md                           
-├── King_House_Sales.ipynb   
-├── Presentation.pdf 
-├── notebooks  
+├── Jupyter Notebook.ipynb   
+├── Presentation.pdf  
 ├── data                                
