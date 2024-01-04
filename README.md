@@ -28,7 +28,6 @@ To understand the relationship between our independent variables and the depende
 * Independent variables and their correlation with each other and price.
 * Independent variables with a significant correlation with price.
 * Featrues that exhibit multicollinearity together.
-*
 
 ## Modeling
 
